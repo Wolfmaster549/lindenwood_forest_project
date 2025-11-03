@@ -1,0 +1,13 @@
+remote_url = "urcs://urc-uefn.live.ucs.on.epicgames.com"
+identity = "019a0d57770872aea814fbf0f4bd7fa9"
+
+[store]
+max_capacity = 10485760
+eviction_delay = 10
+max_size = 10737418240
+compaction_delay = 30
+
+[file]
+direct_write = false
+direct_io = false
+flush_write = false
