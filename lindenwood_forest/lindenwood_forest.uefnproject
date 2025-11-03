@@ -1,0 +1,64 @@
+{
+	"fileVersion": 15,
+	"title": "lindenwood_forest",
+	"description": "",
+	"keyArt": "",
+	"docsUrl": "",
+	"apiAccess": "Private",
+	"compatibilityVersion": "38.00",
+	"requiredRedirectorStartingVersion": "37.51.46968237",
+	"editorPermissions": [],
+	"epicApp": "",
+	"sortPriority": 0,
+	"featureSet": "",
+	"plugins": [
+		{
+			"name": "lindenwood_forest",
+			"bIsRoot": true,
+			"bIsPublic": false
+		}
+	],
+	"dataSets":
+	{
+		"matchmaking":
+		{
+			"maxPlayers": 16,
+			"maxTeamCount": 1,
+			"maxTeamSize": 16,
+			"maxSocialPartySize": 16,
+			"allowJoinInProgress": true,
+			"allowSquadFillOption": false,
+			"islandQueuePrivacy": "Public",
+			"minPlayers": 1,
+			"overtimePlayerTarget": 1,
+			"queueMainDuration": 5,
+			"queueOvertimeDuration": 5,
+			"useSkillBasedMatchmaking": false,
+			"ratingType": "",
+			"version": 1
+		},
+		"experimental":
+		{
+			"sceneGraph":
+			{
+				"bIsSceneGraphSystemAllowed": true,
+				"bEnableOneFilePerEntity": false
+			},
+			"experimentalContent":
+			{
+				"bIsExperimentalContentAllowed": false
+			},
+			"version": 1
+		}
+	},
+	"bindings":
+	{
+		"projectId": "df9fd06d-44be-5fe4-b5b4-6399a995da19",
+		"modules":
+		{
+			"lindenwood_forest": "d0fbe379-4c4c-1923-cc0a-a8a0257a065a"
+		},
+		"bSuppressAutomaticVersePathAssignment": false,
+		"projectVersePath": ""
+	}
+}
